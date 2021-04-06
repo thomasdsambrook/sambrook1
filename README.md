@@ -4,7 +4,7 @@ This code is a stripped back version of code developed by Andy Wills for running
 
 The code models Q learning in a two-action forced choice task. It fits two parameters, alpha (learning rate) and beta (inverse temperature). It provides trial-by-trial estimates of Q for the chosen action and delta for the outcome.
 
-You should load the R Project in R Studio and ensure that the model folder contains a file named tr_complete.csv containing subject, action and feedback columns as shown in the example file.
+You should load the R Project Basic.Proj in R Studio and ensure that the /model folder is a subdirectory and itself contains a file named tr_complete.csv containing subject, action and feedback columns as shown in the example file.
 
 Run the script fitBasic.r
 
